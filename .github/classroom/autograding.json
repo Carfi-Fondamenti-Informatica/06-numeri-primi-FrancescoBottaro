@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Numero Primo 1",
+      "setup": "g++ main.cpp lib.cpp -o main",
+      "run": "./main",
+      "input": "97",
+      "output": "numero primo",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Numero Primo 2",
+      "setup": "g++ main.cpp lib.cpp -o main",
+      "run": "./main",
+      "input": "2",
+      "output": "numero primo",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Numero Primo 3",
+      "setup": "g++ main.cpp lib.cpp -o main",
+      "run": "./main",
+      "input": "7",
+      "output": "numero primo",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Numero Primo 4",
+      "setup": "g++ main.cpp lib.cpp -o main",
+      "run": "./main",
+      "input": "53",
+      "output": "numero primo",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Numero Primo 5",
+      "setup": "g++ main.cpp lib.cpp -o main",
+      "run": "./main",
+      "input": "997",
+      "output": "numero primo",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Non Primo 1",
+      "setup": "g++ main.cpp lib.cpp -o main",
+      "run": "./main",
+      "input": "4",
+      "output": "numero non primo",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Non Primo 2",
+      "setup": "g++ main.cpp lib.cpp -o main",
+      "run": "./main",
+      "input": "812",
+      "output": "numero non primo",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Non Primo 3",
+      "setup": "g++ main.cpp lib.cpp -o main",
+      "run": "./main",
+      "input": "42",
+      "output": "numero non primo",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Non Primo 4",
+      "setup": "g++ main.cpp lib.cpp -o main",
+      "run": "./main",
+      "input": "10",
+      "output": "numero non primo",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Non Primo 5",
+      "setup": "g++ main.cpp lib.cpp -o main",
+      "run": "./main",
+      "input": "33",
+      "output": "numero non primo",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
