@@ -11,8 +11,11 @@ int main() {
     i=n-1;
     ris=num_prim(n,i);
     if (ris==1)
+    {
         cout<<"numero primo";
-    else
+    }
+    else {
         cout<<"numero non primo";
+    }
     return 0;
 }
